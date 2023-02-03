@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+* {
+  margin: 0;
+}
+.App {
+  background-image: url(https://images.alphacoders.com/805/thumb-1920-805180.jpg);
+  background-size: 100%;
+}
+.imgNav {
+  margin-left: 50px;
+  height: auto;
+  width: 100px;
+}
+.titleNav {
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: Unbounded, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: gold;
+}
+.title {
+  height: auto;
+  width: auto;
+  font-size: 25px;
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+.desc {
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.description {
+  color: rgba(173, 173, 173, 0.8);
+  transform: translateY(-100%);
+  position: absolute;
+  width: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(109, 100, 144, 0.805);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.poster {
+  height: 500px;
+  width: auto;
+  margin: 100px 50px 50px 50px;
+}
+.trailer {
+  height: 500px;
+  width: 700px;
+  margin: 100px 50px 50px 50px;
+}
+.pics {
+  height: 400px;
+  width: 200px;
+}
+.card {
+  margin-left: 40px;
+  margin-top: 100px;
+  overflow: hidden;
+  height: 400px;
+}
+.welcome {
+  margin-top: 70px;
+  color: rgba(255, 217, 0, 0.722);
+  font-size: 60px;
+  font-family: Dancing Script, Arial, Helvetica, sans-serif;
+  text-decoration: wavy;
+}
+.card:hover .description {
+  transform: translateY(0);
+}
+.title {
+  color: gold;
+}
+.desc {
+  color: rgba(255, 255, 0, 0.734);
+}
